@@ -7,6 +7,7 @@ body, html {
     margin: 0;
 }
 
+/*timer*/
 .left{
     position: absolute;
     left: 30px;
@@ -27,6 +28,37 @@ p {
     height: 250px;
 }
 
+.timerBtn{
+    background: #ffb6c1;
+    width: 65px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.timerBtnReset{
+    top: 50px;
+    left: 50px;
+    margin-top: 5px;
+    margin-right: 154px;
+}
+
+.timerBtnStart{
+    top: 50px;
+    left: 50px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.timerBtnStop{
+    background: lightgrey;
+}
+
+.timerPart{
+    font-size: 90px;
+}
+
+/*to do list*/
 .right{
     position: absolute;
     top: 120px;
