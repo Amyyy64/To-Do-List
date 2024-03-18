@@ -30,29 +30,26 @@
                 <button onclick="addTask()">Add</button>
 
                 <ul id="myUL">
-                    <!--<li class="checked">task 1</li>
-                    <li>task 2</li>
-                    <li>task 3</li>-->
                 </ul>
             </div>
         </div>
 
         <!--timer-->
         <div class="left">
-            <!--<aside>-->
                 <div class="timer">
                     <p>Timer</p>
 
-                    <span class="timer__part timer__part--minutes">00</span>
-                    <span class="timer__part">:</span>
-                    <span class="timer__part timer__part--seconds">00</span>
-                    <button type="button" class="timer__btn">
+                    <span class="timerPart timerPartMinutes">00</span>
+                    <span class="timerPart">:</span>
+                    <span class="timerPart timerPartSeconds">00</span><br>
 
-                    </button>
+                    <button type="button" class="timerBtn timerBtnReset">Reset</button>
+                    <button type="button" class="timerBtn timerBtnControl timerBtnStart">Start</button>
+
                 </div>
-            <!--</aside>-->
         </div>
 
         <script src="script.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
